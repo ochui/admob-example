@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "02m",
-    "slug": "02m",
+    "name": "02i",
+    "slug": "02i",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -26,7 +26,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.macjoe.umanah"
+      "package": "com.ediong.effiong"
     }
   }
 }

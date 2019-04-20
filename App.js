@@ -15,8 +15,8 @@ export default class App extends React.Component {
 
   componentDidMount = async () => {
     console.log("--------");
-    AdMobInterstitial.setAdUnitID("ca-app-pub-7430697832200004/3739554758");
-    AdMobRewarded.setAdUnitID("ca-app-pub-7430697832200004/5118538815");
+    AdMobInterstitial.setAdUnitID("ca-app-pub-3940256099942544/1033173712");
+    AdMobRewarded.setAdUnitID("ca-app-pub-3940256099942544/5224354917");
     try {
       await AdMobRewarded.requestAdAsync();
     } catch (error) {
@@ -67,14 +67,14 @@ export default class App extends React.Component {
         <AdMobBanner
           bannerSize="fullBanner"
           style={styles.bottomBanner}
-          adUnitID="ca-app-pub-7430697832200004/4391780508"
+          adUnitID="ca-app-pub-3940256099942544/6300978111"
           onDidFailToReceiveAdWithError={this.bannerError}
         />
 
         <PublisherBanner
           bannerSize="fullBanner"
           style={styles.topBanner}
-          adUnitID="ca-app-pub-7430697832200004/6295889113"
+          adUnitID="ca-app-pub-3940256099942544/6300978111"
           onDidFailToReceiveAdWithError={this.bannerError}
           onAdMobDispatchAppEvent={this.adMobEvent}
         />
