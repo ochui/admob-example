@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "02i",
-    "slug": "02i",
+    "name": "merci",
+    "slug": "merci",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -26,7 +26,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.ediong.effiong"
+      "package": "com.merci.ochui"
     }
   }
 }
